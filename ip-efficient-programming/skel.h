@@ -20,4 +20,6 @@
 #define isvalidsock(s)  ((s) >= 0)
 typedef int SOCKET;
 
+
+#define testInfo printf("fun[%s]:line[%d]\n", __func__, __LINE__);
 #endif /* __SKEL_H__ */
